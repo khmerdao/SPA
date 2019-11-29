@@ -1,0 +1,18 @@
+header{
+    background: white;
+    align-items: center ;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+header img{
+    /* align-content: flex-start; */
+    width: 50px;
+    height: 60px;
+}
+
+#navbarNav{
+    justify-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+}

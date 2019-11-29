@@ -1,54 +1,44 @@
 
-#header header{
-    display: flex;
-    position: sticky;
-    justify-content: space-between;
-    flex-direction:row;
-    align-items: center ;
-    width: 100%;
-    background-color: grey;
-}
+@import "./header.css";
+@import "./footer.css";
 
-#header header img{
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-color: green;
-}
-
-#header header nav{
-    display: inline-block;
-    background-color: black;
-    /* align-content: flex-end; */
-    width: 50%;
-    height: 100%;
-    padding: 10px;
-}
-
-#header header ul li{
-    text-align: center;
-}
-#header header ul a{
-    display: inline-block;
-    background-color: white;
-    color: red;
-    /* align-content: flex-end; */
-    justify-content: right;
-    width: 100px;
-    height: 50px;
-}
-
-#header header ul a:hover{
-    display: inline-block;
-    background-color: red;
-    color: white;
-    transition: 0.4s;
-}
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding-left: 0px;
+    padding-top: 70px;
     background-color: white;
     font-family: sans-serif;
-    line-height: 30px;
+    /* line-height: 30px; */
     color: black;
+    align-items: center;
+}
+
+header, main, footer, article, section, div, nav{
+    display: flex;
+    border: solid 2px ;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+}
+
+main{
+    padding-left: 30px;
+}
+
+footer{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+section{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+}
+
+#portfolio, #contactUs{
+    flex-direction: column;
 }
