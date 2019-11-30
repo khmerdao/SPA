@@ -32,6 +32,7 @@ footer{
     padding-left: 15px;
     padding-right: 15px;
 }
+
 section{
     justify-content: center;
     align-items: center;
@@ -40,5 +41,14 @@ section{
 }
 
 #portfolio{
+    background-color: grey;
+}
 
+h1{
+    border-bottom: red solid;
+    border-bottom-width: medium;
+}
+
+#form{
+ justify-content: center;
 }
